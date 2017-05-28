@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/x86 4.12.0-rc1 Kernel Configuration
+# Linux/x86 4.12.0-rc2 Kernel Configuration
 #
 CONFIG_64BIT=y
 CONFIG_X86_64=y
@@ -3860,6 +3860,7 @@ CONFIG_GPIO_ICH=m
 # Port-mapped I/O GPIO drivers
 #
 # CONFIG_GPIO_F7188X is not set
+CONFIG_GPIO_INT0002=m
 # CONFIG_GPIO_IT87 is not set
 # CONFIG_GPIO_SCH is not set
 # CONFIG_GPIO_SCH311X is not set
@@ -6592,7 +6593,6 @@ CONFIG_INTEL_HID_EVENT=m
 CONFIG_INTEL_VBTN=m
 CONFIG_INTEL_IPS=m
 CONFIG_INTEL_PMC_CORE=y
-CONFIG_INTEL_INT0002=m
 # CONFIG_IBM_RTL is not set
 CONFIG_SAMSUNG_LAPTOP=m
 CONFIG_MXM_WMI=m
@@ -7141,7 +7141,6 @@ CONFIG_NVMEM=m
 # FSI support
 #
 CONFIG_FSI=m
-# CONFIG_TEE is not set
 
 #
 # Firmware Drivers
